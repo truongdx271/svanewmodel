@@ -9,12 +9,13 @@ namespace SVALib
 		public DateTime scantime {get;set;}
 		public int total {get;set;}
 		public List<resultItem> resultItems{get;set;}
-	}
-	public ResultItem(int No,DateTime scantime,int total,List<resultItem> resultItems){
+		
+		public Scan(int No,DateTime scantime,int total,List<resultItem> resultItems){
 		this.No=No;
 		this.scantime=scantime;
 		this.total=total;
 		this.resultItems=resultItems;
+		}
 	}
 } 
 

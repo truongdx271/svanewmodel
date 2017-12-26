@@ -10,13 +10,14 @@ namespace SVALib
 		public string pathFile {get;set;}
 		public string lineNumber{get;set;}
 		public string result{get;set;}
-	}
-	public ResultItem(int identify,string displayTxt,string pathFile,string lineNumber,string result){
+		
+		public ResultItem(int identify,string displayTxt,string pathFile,string lineNumber,string result){
 		this.identify=identify;
 		this.displayTxt=displayTxt;
 		this.pathFile=pathFile;
 		this.lineNumber=lineNumber;
 		this.result=result;
+		}
 	}
 } 
 
